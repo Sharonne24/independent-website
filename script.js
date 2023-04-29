@@ -1,3 +1,5 @@
+
+//fetching data using API
 const apiUrl = ('https://raw.githubusercontent.com/Sharonne24/independent-website/main/db.json');
 async function getMenu() {
     const response = await fetch('https://raw.githubusercontent.com/Sharonne24/independent-website/main/db.json');
@@ -49,14 +51,14 @@ orderForm.addEventListener("submit", function(event) {
   const addressInput = document.getElementById("address");
   const orderInput = document.getElementById("order");
 
-  // clear the form after submission
+  
   nameInput.value = '';
   emailInput.value = '';
   phoneInput.value = '';
   addressInput.value = '';
   orderInput.value = '';
 
-  orderForm.reset(); // reset the form after submission
+  orderForm.reset(); 
 });
 
 
@@ -78,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const guestsInput = document.getElementById("guests");
     const messageInput = document.getElementById("message");
 
-    // clear the form after submission
+    
     nameInput.value = '';
     emailInput.value = '';
     phoneInput.value = '';
@@ -87,6 +89,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
     guestsInput.value = '';
     messageInput.value = '';
 
-    reservationForm.reset(); // reset the form after submission
+    reservationForm.reset(); 
   });
 });
+
+//back to top button
+document.addEventListener("DOMContentLoaded", function() {
+  const btnToTop = document.getElementById("btn-to-top");
+
+  btnToTop.addEventListener("click", function() {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  });
+});
+
+
+

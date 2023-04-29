@@ -347,7 +347,7 @@
   }
   #order-head {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
   }
   
   #contact-form label {
@@ -405,7 +405,7 @@
     background-image: url('./images/nordwood-themes-mue4Jwr-N5M-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: calc(1);
+    opacity: calc(0.9);
   }
   
 
@@ -484,10 +484,17 @@
     color: black;
     
   }
-  #reservation-head {
+  .hidden {
+    display: none;
+  }
+  .reservation-form #reservation-head {
     text-align: center;
-    color: white;
-    margin-bottom: auto;
+    font-size: 2em;
+  }
+  
+  #form-reservation-head {
+    font-size: 1.5em;
+    margin-bottom: 50px;
   }
 
   #reservation {
@@ -495,7 +502,7 @@
     background-size: cover;
     background-position: center;
     padding: 100px 0;
-    opacity: calc(1);
+    opacity: calc(0.8);
   }
   
   .form-group {

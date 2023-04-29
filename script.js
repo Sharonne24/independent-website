@@ -36,66 +36,57 @@ async function getMenu() {
 
   getMenu();
 
+  //online order form
+  const orderForm = document.getElementById("order-form");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const orderForm = document.querySelector('#order-form');
-
-orderForm.addEventListener('submit', (event) => {
+orderForm.addEventListener("submit", function(event) {
   event.preventDefault();
-  
-  const name = document.getElementById('name').value.trim();
-  const email = document.querySelector('#email').value.trim();
-  const phone = document.querySelector('#phone').value.trim();
-  const address = document.querySelector('#address').value.trim();
-  const order = document.querySelector('#order').value.trim();
+  console.log("Form submitted!");
 
-  if (!name || !email || !phone || !address || !order) {
-    alert('Please fill all the fields.');
-    return;
-  }
+  const nameInput = document.getElementById("name");
+  const emailInput = document.getElementById("email");
+  const phoneInput = document.getElementById("phone");
+  const addressInput = document.getElementById("address");
+  const orderInput = document.getElementById("order");
 
-  // send the form data to the server
-  fetch('/submit-order', {
-    method: 'POST',
-    body: JSON.stringify({
-      name: name,
-      email: email,
-      phone: phone,
-      address: address,
-      order: order
-    }),
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  })
-  .then(response => {
-    if (response.ok) {
-      alert('Order submitted successfully!');
-      orderForm.reset(); // Clear the form
-      Object.values(orderForm.elements).forEach(element => {
-        if (element.type !== 'submit') {
-          element.classList.remove('valid');
-          element.classList.remove('invalid');
-        }
-      });
-    } else {
-      alert('Something went wrong. Please try again later.');
-    }
-  })
-  .catch(error => {
-    alert('Something went wrong. Please try again later.');
+  // clear the form after submission
+  nameInput.value = '';
+  emailInput.value = '';
+  phoneInput.value = '';
+  addressInput.value = '';
+  orderInput.value = '';
+
+  orderForm.reset(); // reset the form after submission
+});
+
+
+//resevation
+document.addEventListener("DOMContentLoaded", function(event) {
+  const reservationForm = document.getElementById("reservation-form");
+
+
+  reservationForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+    console.log("Form submitted!"); 
+
+
+    const nameInput = document.getElementById("name");
+    const emailInput = document.getElementById("email");
+    const phoneInput = document.getElementById("phone");
+    const dateInput = document.getElementById("date");
+    const timeInput = document.getElementById("time");
+    const guestsInput = document.getElementById("guests");
+    const messageInput = document.getElementById("message");
+
+    // clear the form after submission
+    nameInput.value = '';
+    emailInput.value = '';
+    phoneInput.value = '';
+    dateInput.value = '';
+    timeInput.value = '';
+    guestsInput.value = '';
+    messageInput.value = '';
+
+    reservationForm.reset(); // reset the form after submission
   });
 });

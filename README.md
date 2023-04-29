@@ -3,7 +3,7 @@ Developed by Sharon Awuor
 
 ##Description
 
-This is a website for a restaurant that serves delicious meals and provides a great dining experience. The website is designed to showcase the restaurant’s menu, location, contact information, and other information for customers.
+This is a website for a restaurant that serves delicious meals and provides a great dining experience. The website is designed to showcase the restaurant’s menu, location, contact information, and other information for customers. It allows clients to order meals online incase they cannot get to the restaurant and they can also reserve tables online.
 
 ## Features
 

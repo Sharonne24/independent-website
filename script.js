@@ -1,4 +1,5 @@
 //fetching data using API
+document.addEventListener('DOMContentLoaded', function() {
 const apiUrl = ('https://raw.githubusercontent.com/Sharonne24/independent-website/main/db.json');
 
 // function to create a menu item
@@ -46,6 +47,7 @@ async function populateMenu() {
 
 populateMenu();
 
+
 // function to reset form inputs
 function resetFormInputs(formId) {
   const form = document.getElementById(formId);
@@ -82,4 +84,6 @@ const btnToTop = document.getElementById('btn-to-top');
 btnToTop.addEventListener('click', function() {
   document.documentElement.scrollTop = 0;
   document.body.scrollTop = 0;
+  });
+
 });

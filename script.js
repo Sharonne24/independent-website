@@ -1,10 +1,9 @@
-//order form 
 const orderForm = document.querySelector('#order-form');
 
 orderForm.addEventListener('submit', (event) => {
   event.preventDefault();
   
-  const name = document.getElementById('name').reset();
+  const name = document.getElementById('name').value.trim();
   const email = document.querySelector('#email').value.trim();
   const phone = document.querySelector('#phone').value.trim();
   const address = document.querySelector('#address').value.trim();
@@ -33,6 +32,12 @@ orderForm.addEventListener('submit', (event) => {
     if (response.ok) {
       alert('Order submitted successfully!');
       orderForm.reset(); // Clear the form
+      Object.values(orderForm.elements).forEach(element => {
+        if (element.type !== 'submit') {
+          element.classList.remove('valid');
+          element.classList.remove('invalid');
+        }
+      });
     } else {
       alert('Something went wrong. Please try again later.');
     }
@@ -41,4 +46,3 @@ orderForm.addEventListener('submit', (event) => {
     alert('Something went wrong. Please try again later.');
   });
 });
-  

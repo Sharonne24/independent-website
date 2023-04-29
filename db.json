@@ -1,0 +1,84 @@
+{
+    "menu": [
+      {
+        "name": "Vegan Salad",
+        "description": "Mixed greens with roasted veggies, avocado, and a citrus vinaigrette.",
+        "price": 18,
+        "image": "https://res.cloudinary.com/dguvs0o7o/image/upload/v1682585689/2c7da83d17ee964f0a58f270ae0df1ff_kzlobx.jpg"
+      },
+      {
+        "name": "Lemon Garlic Butter",
+        "description": "Sautéed shrimp in a lemon garlic butter sauce served over linguine pasta.",
+        "price": 28,
+        "image": "https://res.cloudinary.com/dguvs0o7o/image/upload/v1682585248/Lemon_Garlic_Butter_Chicken_Thighs_Recipe_with_Green_Beans_Best_Chicken_Thighs_Recipe_e3hsem.jpg"
+      },
+      {
+        "name": "Loaded Fries",
+        "description": "Crispy fries topped with seasoned ground beef, cheddar cheese, and sour cream.",
+        "price": 16,
+        "image": "https://res.cloudinary.com/dguvs0o7o/image/upload/v1682585772/e8b4d1ae518f52c7d4ebd6785d00c627_tsnrze.jpg"
+      },
+      {
+        "name": "Spaghetti plus meatballs",
+        "description": "Delicious spaghetti and meatballs with homemade marinara sauce.",
+        "image": "https://res.cloudinary.com/dguvs0o7o/image/upload/v1682660318/articleLarge_uhn7c0.jpg",
+        "price": 14.99
+    },
+    {
+        "name": "Baked stuffed lobster",
+        "description": "Fresh, juicy lobster baked to perfection with a savory stuffing.",
+        "image": "https://res.cloudinary.com/dguvs0o7o/image/upload/v1682660319/BakedStuffedLobster-TheSpruce_DianaChistruga-3fcb6301491a4be193ecf40d0735e8d1_aeteai.jpg",
+        "price": 29.99
+    },
+      {
+        "name": "Dance Out Cocktail",
+        "description": "A refreshing blend of vodka, cucumber, mint, and lime juice.",
+        "price": 14,
+        "image": "https://res.cloudinary.com/dguvs0o7o/image/upload/v1682585826/Homepage_-_Delta_Restaurant_edygmm.jpg"
+      },
+      {
+          "name": "Painkiller cocktail",
+          "description": "A refreshing tropical cocktail made with rum, coconut cream, pineapple, and orange juice.",
+          "image": "https://res.cloudinary.com/dguvs0o7o/image/upload/v1682660047/Painkiller-Cocktail-008_ot7xr6.jpg",
+          "price": 9.99
+      },
+      {
+          "name": "Strawberry water",
+          "description": "Freshly made water infused with sweet strawberries.",
+          "image": "https://res.cloudinary.com/dguvs0o7o/image/upload/v1682660047/Strawberry-Water-006_twlkyu.jpg",
+          "price": 3.99
+        },
+        {
+          "name": "Baileys coffee",
+          "description": "Hot coffee with a shot of creamy Baileys Irish Cream.",
+          "image": "https://res.cloudinary.com/dguvs0o7o/image/upload/v1682660047/Baileys-Coffee-010_r2fxdu.jpg",
+          "price": 5.99
+        },
+        {
+          "name": "White chocolate Oreo cookie balls",
+          "description": "A delightful dessert made with crushed Oreos and creamy white chocolate.",
+          "image": "https://res.cloudinary.com/dguvs0o7o/image/upload/v1682660179/White-Chocolate-Oreo-Cookie-Balls-683x1024_fbhevl.png",
+          "price": 6.99
+        },
+        {
+          "name": "Chocolate macarons",
+          "description": "Flavorful French macarons filled with rich chocolate ganache.",
+          "image": "https://res.cloudinary.com/dguvs0o7o/image/upload/v1682660179/HD-200912-r-chocolate-macarons-cd5344aea289447da6036cf7bc9e19ae_r6h8fe.jpg",
+          "price": 8.99
+        },
+        {
+          "name": "Molten cake",
+          "description": "Warm, gooey chocolate cake with a melted center.",
+          "image": "https://res.cloudinary.com/dguvs0o7o/image/upload/v1682660178/dessert-main-image-molten-cake-0fbd4f2_f9lng8.jpg",
+          "price": 7.99
+        }
+      ]
+    }
+  
+      
+
+    
+    
+    
+  
+  

@@ -21,7 +21,8 @@ This is a website for a restaurant that serves delicious meals and provides a gr
 ## Getting Started
 
 -	Clone the repository
-   git clone https://github.com/Sharonne24/restaurant-website.git
+
+git clone git@github.com:Sharonne24/independent-website.git
 
 -	Open the `index.html` file in your web browser
 

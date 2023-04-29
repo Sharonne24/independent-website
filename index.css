@@ -117,4 +117,38 @@
         z-index: 1;
         text-align: center;
       }
+      /*hero section*/
+    .hero {
+        background-image: url(./images/8c314b72998c744ae4ca06c735191b43.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        height: 1050px;
+      }
+      .hero h1 {
+        color: #fff;
+        font-size: large;
+        text-align: center;
+      }
       
+      .hero-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+      }
+      
+      .hero-image img {
+        width: 100%;
+        height: auto;
+        
+      }
+      #hero {
+        position: relative;
+        z-index: 1;
+      }

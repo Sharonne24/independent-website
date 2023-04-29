@@ -26,10 +26,6 @@ git clone git@github.com:Sharonne24/independent-website.git
 
 -	Open the `index.html` file in your web browser
 
-## Live Site
-
--	Check out the live site at  https://sharonne24.github.io/restaurant-website/
-
 
 ## Contributing
 

@@ -633,3 +633,20 @@
   .contact-block li a:hover {
     text-decoration: underline;
   }
+  @media screen and (max-width: 768px) {
+    #contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .contact-block {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .contact-block h3 {
+      font-size: 24px;
+    }
+  }
+  

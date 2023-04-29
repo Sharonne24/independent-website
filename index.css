@@ -394,4 +394,78 @@
     background-color: #3e8e41;
   }
   
+   /*order form*/
+   #order-online {
+    background-color: silver;
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+  }
+  #order-online {
+    background-image: url('./images/nordwood-themes-mue4Jwr-N5M-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: calc(1);
+  }
+  
+  
+  #order-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 300;
+    
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.3s ease;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    display: inline-block;
+    background-color: #00b2b2;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #008080;
+  }
   
